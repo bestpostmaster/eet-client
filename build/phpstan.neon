@@ -1,0 +1,5 @@
+parameters:
+	excludes_analyse:
+		- *tests/SlevomatEET/Cryptography/OpenSslFunctionsMock.php
+	ignoreErrors:
+		- '#Property SlevomatEET\\EvidenceResponse::\$responseTime \(DateTimeImmutable\) does not accept DateTimeImmutable\|false\.#'
